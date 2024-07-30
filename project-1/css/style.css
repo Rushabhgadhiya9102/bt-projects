@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav ul li:last-child {
+    border-color: #5758e0 !important;
+    
+}
+
+nav ul li:last-child:hover{
+    background-image: linear-gradient(to right,#5758e0, lightseagreen);
+    color: white;
+}
