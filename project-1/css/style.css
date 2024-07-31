@@ -1,15 +1,52 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
+
+/* -------------- N A V I G A T I O N -------------------- */
 
 nav ul li:last-child {
-    border-color: #5758e0 !important;
-    
+  border-color: #5758e0 !important;
 }
 
-nav ul li:last-child:hover{
-    background-image: linear-gradient(to right,#5758e0, lightseagreen);
-    color: white;
+nav ul li:last-child:hover {
+  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  color: white;
 }
+
+nav ul li a:hover {
+  color: #5758e0 !important;
+  transition: ease-in 0.2s;
+}
+/* -------------- N A V I G A T I O N - E N D ------------------- */
+
+/* -------------- B A N N E R - S E C T I O N ------------------- */
+
+.carousel-item {
+  background: url("../images/slider-img-1.jpg"), rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  height: 92vh;
+  background-blend-mode: color-burn;
+}
+
+.carousel-content {
+  padding: 150px;
+}
+
+.carousel-content h2 {
+  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  background-clip: text;
+  color: transparent;
+}
+
+.carousel-content a {
+  background-color: #5758e0;
+}
+
+.carousel-content a:hover {
+  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  transition: ease-in 0.5s;
+}
+
+/* -------------- B A N N E R - S E C T I O N - E N D ------------------- */
