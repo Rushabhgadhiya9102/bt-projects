@@ -31,7 +31,7 @@ nav ul li a:hover {
 }
 
 .carousel-content {
-  padding: 150px;
+  padding: 150px 0px;
 }
 
 .carousel-content h2 {
@@ -50,3 +50,55 @@ nav ul li a:hover {
 }
 
 /* -------------- B A N N E R - S E C T I O N - E N D ------------------- */
+
+/* -------------- S E R V I C E S - S E C T I O N -------------- */
+
+.services-content a i:first-child {
+  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  background-clip: text;
+  color: transparent;
+}
+
+.services {
+  padding: 100px 0px;
+}
+
+.services-content:hover {
+  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  color: white !important;
+  transform: translateY(-10px);
+  transition: ease-in 0.2s;
+}
+
+.services .col-4:first-child .services-content a::after {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  content: "";
+  width: 80%;
+  height: 60%;
+  z-index: -1;
+}
+.services .col-4:last-child .services-content a::after{
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  content: "";
+  width: 80%;
+  height: 60%;
+  z-index: -1;
+}
+/* -------------- S E R V I C E S - S E C T I O N - E N D ------------- */
+
+/* -------------- S E R V I C E S - S E C T I O N - E N D ------------- */
+
+.about-us .col-6 span {
+  width: 50px;
+  height: 5px;
+   background-image: linear-gradient(to right, #5758e0, lightseagreen);
+}
+
+/* -------------- S E R V I C E S - S E C T I O N - E N D ------------- */
+
