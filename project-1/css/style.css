@@ -20,7 +20,7 @@ nav ul li a:hover {
   transition: ease-in 0.2s;
 }
 
-#last-list a:hover{
+#last-list a:hover {
   color: white !important;
 }
 /* -------------- N A V I G A T I O N - E N D ------------------- */
@@ -69,10 +69,9 @@ nav ul li a:hover {
 
 .services-content:hover {
   background-image: linear-gradient(to right, #5758e0, lightseagreen);
-
 }
 
-.services-content:hover .color{
+.services-content:hover .color {
   color: white !important;
 }
 
@@ -88,7 +87,7 @@ nav ul li a:hover {
   z-index: -1;
 }
 
-.services .col-lg-4:last-child .services-content a::before{
+.services .col-lg-4:last-child .services-content a::before {
   position: absolute;
   right: -20px;
   bottom: -20px;
@@ -99,7 +98,6 @@ nav ul li a:hover {
   height: 60%;
   z-index: -1;
 }
-
 
 /* -------------- S E R V I C E S - S E C T I O N - E N D ------------- */
 
@@ -112,3 +110,23 @@ nav ul li a:hover {
 }
 
 /* -------------- A B O U T - S E C T I O N - E N D ------------- */
+
+/* -------------- A B I L I T Y - S E C T I O N ------------- */
+
+.abilities {
+  background-color: rgb(17, 17, 17);
+}
+
+.abilities .col-6 span {
+  width: 50px;
+  height: 5px;
+  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+}
+
+.abilities-content i {
+  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  background-clip: text;
+  color: transparent;
+}
+
+/* -------------- A B I L I T Y - S E C T I O N - E N D ------------- */
