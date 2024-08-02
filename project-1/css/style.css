@@ -73,7 +73,7 @@ nav ul li a:hover {
   transition: ease-in 0.2s;
 }
 
-.services-content:hover a::before{
+.services-content:hover a::before {
   display: none;
   transition: ease-in 0.2s;
 }
@@ -106,8 +106,6 @@ nav ul li a:hover {
   z-index: -1;
 }
 
-
-
 /* -------------- S E R V I C E S - S E C T I O N - E N D ------------- */
 
 /* -------------- A B O U T - S E C T I O N  ------------- */
@@ -122,7 +120,8 @@ nav ul li a:hover {
 
 /* -------------- A B I L I T Y - S E C T I O N ------------- */
 
-.abilities, .video {
+.abilities,
+.video {
   background-color: rgb(17, 17, 17);
 }
 
@@ -142,26 +141,47 @@ nav ul li a:hover {
 
 /* -------------- P O R T F O L I O - S E C T I O N ------------- */
 
-.portfolio-img{
+.portfolio-img {
   height: 500px;
 }
 
-.card-img-overlay{
+.portfolio-card .card-img-overlay {
   opacity: 0%;
 }
 
-.portfolio-card:hover{
-    transform: translateY(-10px);
-    transition: .2s;
+.portfolio-card:hover {
+  transform: translateY(-10px);
+  transition: 0.2s;
 }
 
-.card-img-overlay:hover{
-   background-image: linear-gradient(to right, #5758e0, lightseagreen);
-   opacity: 75%;
+.portfolio-card .card-img-overlay:hover {
+  background-image: linear-gradient(to right, #5757e0bf, rgba(0, 255, 255, 0.726));
+  opacity: 100%;
 }
 
-.portfolio-inner-content{
-  margin-top: 300px;
+.portfolio-inner-content {
+  margin-top: 200px;
 }
 
 /* -------------- P O R T F O L I O - S E C T I O N - E N D ------------- */
+
+/* -------------- V I D E O - S E C T I O N ------------- */
+
+.video-inner img {
+  object-fit: cover;
+  height: 500px;
+}
+
+.video-inner i {
+  font-size: 150px;
+  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  background-clip: text;
+  color: transparent;
+}
+
+.video-inner i:hover {
+  font-size: 180px;
+  transition: 0.2s;
+}
+
+/* -------------- V I D E O - S E C T I O N - E N D ------------- */
