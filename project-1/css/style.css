@@ -185,3 +185,27 @@ nav ul li a:hover {
 }
 
 /* -------------- V I D E O - S E C T I O N - E N D ------------- */
+
+/* -------------- T E S T I M O N I A L S - S E C T I O N - E N D ------------- */
+
+.testimonial-content .card img{
+   width: 100px;
+}
+
+.testimonial-content .card:hover{
+   background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  transform: translateY(-10px);
+  transition: ease-in 0.2s;
+}
+
+.testimonial-content .card:hover .color{
+  color: white !important;
+}
+
+.testimonial-rating i{
+  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  background-clip: text;
+  color: transparent;
+}
+
+/* -------------- T E S T I M O N I A L S - S E C T I O N - E N D ------------- */
