@@ -69,6 +69,13 @@ nav ul li a:hover {
 
 .services-content:hover {
   background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  transform: translateY(-10px);
+  transition: ease-in 0.2s;
+}
+
+.services-content:hover a::before{
+  display: none;
+  transition: ease-in 0.2s;
 }
 
 .services-content:hover .color {
@@ -78,26 +85,28 @@ nav ul li a:hover {
 .services .col-lg-4:first-child .services-content a::before {
   position: absolute;
   top: -20px;
-  left: -20px;
+  left: -10px;
   background-image: linear-gradient(to right, #5758e0, lightseagreen);
   content: "";
   border-top-left-radius: 20px;
-  width: 80%;
+  width: 60%;
   height: 60%;
   z-index: -1;
 }
 
 .services .col-lg-4:last-child .services-content a::before {
   position: absolute;
-  right: -20px;
+  right: -10px;
   bottom: -20px;
   background-image: linear-gradient(to right, #5758e0, lightseagreen);
   content: "";
   border-bottom-right-radius: 20px;
-  width: 80%;
+  width: 60%;
   height: 60%;
   z-index: -1;
 }
+
+
 
 /* -------------- S E R V I C E S - S E C T I O N - E N D ------------- */
 
@@ -113,7 +122,7 @@ nav ul li a:hover {
 
 /* -------------- A B I L I T Y - S E C T I O N ------------- */
 
-.abilities {
+.abilities, .video {
   background-color: rgb(17, 17, 17);
 }
 
@@ -130,3 +139,29 @@ nav ul li a:hover {
 }
 
 /* -------------- A B I L I T Y - S E C T I O N - E N D ------------- */
+
+/* -------------- P O R T F O L I O - S E C T I O N ------------- */
+
+.portfolio-img{
+  height: 500px;
+}
+
+.card-img-overlay{
+  opacity: 0%;
+}
+
+.portfolio-card:hover{
+    transform: translateY(-10px);
+    transition: .2s;
+}
+
+.card-img-overlay:hover{
+   background-image: linear-gradient(to right, #5758e0, lightseagreen);
+   opacity: 75%;
+}
+
+.portfolio-inner-content{
+  margin-top: 300px;
+}
+
+/* -------------- P O R T F O L I O - S E C T I O N - E N D ------------- */
