@@ -143,7 +143,7 @@ nav ul li a:hover {
 /* -------------- P O R T F O L I O - S E C T I O N ------------- */
 
 .portfolio-img {
-  height: 500px;
+  height: 31rem;
 }
 
 .portfolio-card .card-img-overlay {
@@ -156,12 +156,12 @@ nav ul li a:hover {
 }
 
 .portfolio-card .card-img-overlay:hover {
-  background-image: linear-gradient(to right, #5757e0bf, rgba(0, 255, 255, 0.726));
+  background-image: linear-gradient(to right, #5757e0bf, rgba(32, 178, 171, 0.8));
   opacity: 100%;
 }
 
 .portfolio-inner-content {
-  margin-top: 200px;
+  margin-top: 240px;
 }
 
 /* -------------- P O R T F O L I O - S E C T I O N - E N D ------------- */
