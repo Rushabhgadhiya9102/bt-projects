@@ -84,7 +84,7 @@ nav ul li a:hover {
 
 .services .col-lg-4:first-child .services-content a::before {
   position: absolute;
-  top: -7%;
+  top: -6%;
   left: -2%;
   background-image: linear-gradient(to right, #5758e0, lightseagreen);
   content: "";
@@ -97,7 +97,7 @@ nav ul li a:hover {
 .services .col-lg-4:last-child .services-content a::before {
   position: absolute;
   right: -2%;
-  bottom: -7%;
+  bottom: -6%;
   background-image: linear-gradient(to right, #5758e0, lightseagreen);
   content: "";
   border-bottom-right-radius: 20px;
@@ -121,7 +121,8 @@ nav ul li a:hover {
 /* -------------- A B I L I T Y - S E C T I O N ------------- */
 
 .abilities,
-.video, .info {
+.video,
+.info {
   background-color: rgb(17, 17, 17);
 }
 
@@ -269,7 +270,7 @@ nav ul li a:hover {
 
 .info .col-lg-4:first-child .info-content a::before {
   position: absolute;
-  top: -7%;
+  top: -6%;
   left: -2%;
   background-image: linear-gradient(to right, #5758e0, lightseagreen);
   content: "";
@@ -282,7 +283,7 @@ nav ul li a:hover {
 .info .col-lg-4:last-child .info-content a::before {
   position: absolute;
   right: -2%;
-  bottom: -7%;
+  bottom: -6%;
   background-image: linear-gradient(to right, #5758e0, lightseagreen);
   content: "";
   border-bottom-right-radius: 20px;
@@ -291,4 +292,18 @@ nav ul li a:hover {
   z-index: -1;
 }
 
+.info .container {
+  padding: 70px 0px;
+}
+
 /* -------------- I N F O - S E C T I O N - E N D ------------- */
+
+/* -------------- F O O T E R - S E C T I O N ------------- */
+
+.footer-content a {
+  background-image: linear-gradient(to right, aqua, lightseagreen);
+  background-clip: text;
+  color: transparent;
+}
+
+/* -------------- F O O T E R - S E C T I O N - E N D ------------- */
