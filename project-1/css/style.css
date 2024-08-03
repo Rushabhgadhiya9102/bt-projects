@@ -16,7 +16,7 @@ nav ul li:last-child:hover {
 }
 
 nav ul li a:hover {
-  color: #5758e0 !important;
+  color: lightseagreen !important;
   transition: ease-in 0.2s;
 }
 
@@ -84,8 +84,8 @@ nav ul li a:hover {
 
 .services .col-lg-4:first-child .services-content a::before {
   position: absolute;
-  top: -20px;
-  left: -10px;
+  top: -7%;
+  left: -2%;
   background-image: linear-gradient(to right, #5758e0, lightseagreen);
   content: "";
   border-top-left-radius: 20px;
@@ -96,8 +96,8 @@ nav ul li a:hover {
 
 .services .col-lg-4:last-child .services-content a::before {
   position: absolute;
-  right: -10px;
-  bottom: -20px;
+  right: -2%;
+  bottom: -7%;
   background-image: linear-gradient(to right, #5758e0, lightseagreen);
   content: "";
   border-bottom-right-radius: 20px;
@@ -110,7 +110,7 @@ nav ul li a:hover {
 
 /* -------------- A B O U T - S E C T I O N  ------------- */
 
-.about-us .col-6 span {
+.about-us span {
   width: 50px;
   height: 5px;
   background-image: linear-gradient(to right, #5758e0, lightseagreen);
@@ -125,7 +125,7 @@ nav ul li a:hover {
   background-color: rgb(17, 17, 17);
 }
 
-.abilities .col-6 span {
+.abilities span {
   width: 50px;
   height: 5px;
   background-image: linear-gradient(to right, #5758e0, lightseagreen);
@@ -209,3 +209,30 @@ nav ul li a:hover {
 }
 
 /* -------------- T E S T I M O N I A L S - S E C T I O N - E N D ------------- */
+
+/* -------------- F O R M - S E C T I O N  ------------- */
+
+.contact-form span{
+  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  width: 60px;
+  height: 5px;
+}
+
+.contact-form-content .btn{
+  background-color: #5758e0;
+}
+
+.contact-form-content .btn:hover{
+  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+}
+
+.contact-form i{
+  font-size: 100px;
+  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+/* -------------- F O R M - S E C T I O N - E N D ------------- */
