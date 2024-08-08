@@ -150,6 +150,11 @@ nav ul li a:hover {
   height: 31rem;
 }
 
+.portfolio-img img{
+  object-fit: cover;
+  object-position: center;
+}
+
 .portfolio-card .card-img-overlay {
   opacity: 0%;
 }
@@ -165,7 +170,7 @@ nav ul li a:hover {
 }
 
 .portfolio-inner-content {
-  margin-top: 240px;
+  margin-top: 70%;
 }
 
 /* -------------- P O R T F O L I O - S E C T I O N - E N D ------------- */

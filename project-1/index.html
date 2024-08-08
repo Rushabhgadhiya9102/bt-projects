@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="./fonts/bt-icons/bootstrap-icons.min.css" type="text/css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <!----------------------- N A V I G A T I O N ------------------------>
@@ -58,7 +59,7 @@
     <!------------------------- B A N N E R - S E C T I O N --------------------------->
     <main>
       <section class="main-banner">
-        <div id="my-carousel-1" class="carousel slide">
+        <div id="my-carousel-1" class="carousel slide" data-bs-touch="true">
           <div class="carousel-inner">
             <!--------- C O N T E N T - 1 --------->
 
@@ -106,10 +107,10 @@
             </div>
           </div>
 
-          <button class="carousel-control-prev" data-bs-target="#my-carousel-1" data-bs-slide="prev">
+          <button class="carousel-control-prev d-none d-md-block" data-bs-target="#my-carousel-1" data-bs-slide="prev">
             <span class="carousel-control-prev-icon bg-secondary rounded py-4"></span>
           </button>
-          <button class="carousel-control-next" data-bs-target="#my-carousel-1" data-bs-slide="next">
+          <button class="carousel-control-next d-none d-md-block" data-bs-target="#my-carousel-1" data-bs-slide="next">
             <span class="carousel-control-next-icon bg-secondary rounded py-4"></span>
           </button>
         </div>
@@ -124,7 +125,7 @@
           <div class="row g-4">
             <!------- C A R D - 1 ------>
 
-            <div class="col-lg-4 position-relative z-1">
+            <div class="col-12 col-md-6 col-lg-4 position-relative z-1">
               <div class="services-content bg-dark text-center rounded-3 p-5">
                 <a href="#" class="text-decoration-none">
                   <i class="bi bi-send fs-1 color"></i>
@@ -137,7 +138,7 @@
 
             <!------- C A R D - 2 ------>
 
-            <div class="col-lg-4">
+            <div class=" col-12 col-md-6 col-lg-4">
               <div class="services-content bg-dark text-center rounded-3 p-5">
                 <a href="#" class="text-decoration-none">
                   <i class="bi bi-currency-dollar fs-1 border rounded-circle px-2 color"></i>
@@ -150,7 +151,7 @@
 
             <!------- C A R D - 3 ------>
 
-            <div class="col-lg-4">
+            <div class=" col-12 col-md-6 col-lg-4">
               <div class="services-content bg-dark text-center rounded-3 p-5">
                 <a href="#" class="text-decoration-none">
                   <i class="bi bi-rocket fs-1 color"></i>
@@ -163,7 +164,7 @@
 
             <!------- C A R D - 4 ------>
 
-            <div class="col-lg-4">
+            <div class=" col-12 col-md-6 col-lg-4">
               <div class="services-content bg-dark text-center rounded-3 p-5">
                 <a href="#" class="text-decoration-none">
                   <i class="bi bi-pencil-square fs-1 color"></i>
@@ -176,7 +177,7 @@
 
             <!------- C A R D - 5 ------>
 
-            <div class="col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="services-content bg-dark text-center rounded-3 p-5">
                 <a href="#" class="text-decoration-none">
                   <i class="bi bi-magic fs-1 color"></i>
@@ -189,7 +190,7 @@
 
             <!------- C A R D - 6 ------>
 
-            <div class="col-lg-4 position-relative z-1">
+            <div class=" col-12 col-md-6 col-lg-4 position-relative z-1">
               <div class="services-content bg-dark text-center rounded-3 p-5">
                 <a href="#" class="text-decoration-none">
                   <i class="bi bi-cart3 fs-1 color"></i>
@@ -209,11 +210,11 @@
 
       <section class="about-us py-5 bg-dark">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-6 p-5">
+          <div class="row align-items-center">
+            <div class="col-12 c0l-sm-12 col-md-12 col-lg-6 p-5">
               <img src="./images/about-us.jpg" class="img-fluid img-thumbnail" width="100%" alt="" />
             </div>
-            <div class="col-lg-6 py-5">
+            <div class="col-12 c0l-sm-12 col-md-12 col-lg-6 py-5">
               <div class="content text-white text-center text-lg-start">
                 <span class="d-inline-block"></span>
                 <h2 class="fs-1 my-4">About Us</h2>
@@ -235,9 +236,9 @@
       <section class="abilities py-5">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 py-5 px-5 text-center text-lg-start">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
               <div class="abilities-inner text-white">
-                <div class="abilities-title">
+                <div class="abilities-title text-center text-lg-start py-5">
                   <span class="d-inline-block"></span>
                   <h2 class="fs-1 my-4">We are Professionals</h2>
                   <p class="fs-5 text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, eiusmod tempor incididunt ut labore.</p>
@@ -269,7 +270,7 @@
 
             <!---------- I M A G E -------->
 
-            <div class="col-lg-6 p-5">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-5 d-flex align-items-center">
               <img src="./images/universal-img.jpg" class="img-fluid img-thumbnail" width="100%" alt="" />
             </div>
           </div>
@@ -432,15 +433,15 @@
         <div class="container">
           <div class="portfolio-title text-center mt-5">
             <h2 class="text-white fs-1">Our Portfolio</h2>
-            <p class="text-secondary fs-5 w-50 mx-auto">
+            <p class="text-secondary fs-5 w-75 mx-auto">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
           <div class="portfolio-inner my-5 px-3">
-            <div class="row">
+            <div class="row justify-content-center">
               <!---------- C O N T E N T - 1 ---------->
 
-              <div class="col-lg-4">
+              <div class="col-12 col-md-6 col-lg-4">
                 <div class="card border-0 portfolio-card mb-4 rounded-3 overflow-hidden">
                   <div class="portfolio-img">
                     <img src="./images/portfolio-img-1.jpg" width="100%" class="portfolio-img img-fluid" alt="" />
@@ -460,7 +461,7 @@
 
               <!---------- C O N T E N T - 2 ---------->
 
-              <div class="col-lg-4">
+              <div class="col-12 col-md-6 col-lg-4">
                 <div class="card border-0 portfolio-card mb-4 rounded-3 overflow-hidden">
                   <div class="portfolio-img">
                     <img src="./images/portfolio-img-2.jpg" width="100%" class="portfolio-img img-fluid" alt="" />
@@ -480,7 +481,7 @@
 
               <!---------- C O N T E N T - 3 ---------->
 
-              <div class="col-lg-4">
+              <div class="col-12 col-md-6 col-lg-4">
                 <div class="card border-0 portfolio-card mb-4 rounded-3 overflow-hidden">
                   <div class="portfolio-img">
                     <img src="./images/portfolio-img-3.jpg" width="100%" class="portfolio-img img-fluid" alt="" />
@@ -512,7 +513,7 @@
 
           <div class="video-title text-center my-5">
             <h2 class="text-white fs-1">Watch the Video</h2>
-            <p class="w-50 text-secondary mx-auto">
+            <p class="w-75 text-secondary mx-auto">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
@@ -531,7 +532,7 @@
               <!--------- M O D A L ---------->
 
               <div class="modal fade" id="marketing-video" data-bs-backdrop="static">
-                <div class="modal-dialog modal-xl">
+                <div class="modal-dialog modal-fullscreen">
                   <div class="modal-content">
                     <div class="modal-header">
                       <button class="btn-close bg-secondary rounded-circle" data-bs-dismiss="modal"></button>
@@ -566,11 +567,11 @@
             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
           </div>
           <div class="testimmonial-inner">
-            <div class="row g-4">
+            <div class="row g-4 justify-content-center">
                 
               <!------ C A R D - 1 ------>
 
-              <div class="col-lg-4">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                 <div class="testimonial-content">
                   <div class="card py-5 text-bg-dark">
                     <img src="./images/testimonial-face-1.jpg" class="img-fluid rounded-circle mx-auto" alt="..." />
@@ -590,7 +591,7 @@
 
               <!------ C A R D - 2 ------>
 
-              <div class="col-lg-4">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                 <div class="testimonial-content">
                   <div class="card py-5 text-bg-dark">
                     <img src="./images/testimonial-face-2.jpg" class="img-fluid rounded-circle mx-auto" alt="..." />
@@ -609,7 +610,7 @@
 
               <!------ C A R D - 3 ------>
 
-              <div class="col-lg-4">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                 <div class="testimonial-content">
                   <div class="card py-5 text-bg-dark">
                     <img src="./images/testimonial-face-3.jpg" class="img-fluid rounded-circle mx-auto" alt="..." />
@@ -630,7 +631,7 @@
 
               <!------ C A R D - 4 ------>
 
-              <div class="col-lg-4 ms-lg-auto">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                 <div class="testimonial-content">
                   <div class="card py-5 text-bg-dark">
                     <img src="./images/testimonial-face-4.jpg" class="img-fluid rounded-circle mx-auto" alt="..." />
@@ -648,7 +649,7 @@
 
               <!------ C A R D - 5 ------>
 
-              <div class="col-lg-4 me-lg-auto">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                 <div class="testimonial-content">
                   <div class="card py-5 text-bg-dark">
                     <img src="./images/testimonial-face-5.jpg" class="img-fluid rounded-circle mx-auto" alt="..." />
@@ -673,14 +674,14 @@
 
       <!------------------------- T E S T I M O N I A L - S E C T I O N - E N D -------------------------->
 
-      <!------------------------- C O N T A C T - S E C T I O N  -------------------------->
+      <!------------------------- F O R M - S E C T I O N  -------------------------->
 
       <section class="talking-form py-5 bg-black">
         <div class="container">
           <div class="row">
             <!---------- L E F T - S I D E - C O N T E N T  -------->
 
-            <div class="col-lg-6">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
               <div class="talking-form-inner py-5">
                 <div class="talking-form-title">
                   <span class="d-inline-block"></span>
@@ -706,7 +707,7 @@
 
             <!---------- R I G H T - S I D E - C O N T E N T  -------->
 
-            <div class="col-lg-6">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
               <div class="talking-form-img p-5">
                 <div class="card position-relative">
                   <img src="./images/universal-img.jpg" width="100%" class="img-fluid img-thumbnail" alt="" />
@@ -722,7 +723,7 @@
         </div>
       </section>
 
-      <!------------------------- C O N T A C T - S E C T I O N - E N D -------------------------->
+      <!------------------------- F O R M - S E C T I O N - E N D -------------------------->
 
       <!------------------------- M A P - S E C T I O N  -------------------------->
 
@@ -745,14 +746,14 @@
 
       <!------------------------- M A P - S E C T I O N - E N D -------------------------->
 
-      <!------------------------- I N F O - S E C T I O N -------------------------->
+      <!------------------------- C O N T A C T - S E C T I O N -------------------------->
 
       <section class="contact py-5">
         <div class="container px-4">
-          <div class="row g-4">
+          <div class="row g-4 justify-content-center">
             <!----------- C A R D - 1 --------->
 
-            <div class="col-lg-4 position-relative z-1">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 position-relative z-1">
               <div class="contact-content bg-dark text-center rounded-3 p-5">
                 <a href="#" class="text-decoration-none">
                   <i class="bi bi-telephone fs-1 color"></i>
@@ -765,7 +766,7 @@
 
             <!----------- C A R D - 2 --------->
 
-            <div class="col-lg-4">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
               <div class="contact-content bg-dark text-center rounded-3 p-5">
                 <a href="#" class="text-decoration-none">
                   <i class="bi bi-envelope fs-1 color"></i>
@@ -778,7 +779,7 @@
 
             <!----------- C A R D - 3 --------->
 
-            <div class="col-lg-4 position-relative z-1">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 position-relative z-1">
               <div class="contact-content bg-dark text-center rounded-3 p-5">
                 <a href="#" class="text-decoration-none">
                   <i class="bi bi-geo-alt fs-1 color"></i>
@@ -792,19 +793,20 @@
         </div>
       </section>
 
-      <!------------------------- I N F O - S E C T I O N - E N D -------------------------->
+      <!------------------------- C O N T A C T - S E C T I O N - E N D -------------------------->
     </main>
 
     <!------------------------- F O O T E R - S E C T I O N -------------------------->
+
     <footer class="footer bg-black py-4">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-12 col-sm-12 col-md-6">
             <div class="footer-content text-center text-lg-start">
               <p class="text-secondary mb-0 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing tempor.</p>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-12 col-sm-12 col-md-6">
             <div class="footer-content text-lg-end text-center">
               <p class="text-secondary mb-0 fs-5">© 2024 SolutionM4 Theme by <a href="#" class="text-decoration-none">Rushabh</a></p>
             </div>

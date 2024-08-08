@@ -1,0 +1,45 @@
+@media (max-width:576px){
+ /* C A R O U S E L  */
+    .carousel-content h2{
+        font-size: xx-large;
+    }
+
+    .carousel-content p{
+        font-size: xx-large;
+    }
+
+    /* A B I L I T I E S */
+
+     .abilities-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width:768px){
+
+ /* C A R O U S E L  */
+
+     .carousel-content h2{
+        font-size: 50px;
+    }
+
+    .carousel-content p{
+        font-size: 20px;
+    }
+
+    /* A B I L I T I E S */
+
+    .abilities-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:992px){
+   
+}
+
