@@ -1,12 +1,16 @@
+/*  width 576 px  */
+
 @media (max-width:576px){
  /* C A R O U S E L  */
-    .carousel-content h2{
-        font-size: xx-large;
+
+ .carousel-content h2{
+    font-size: xx-large !important;
+ }
+    .carousel-content p{
+        font-size: large !important;
     }
 
-    .carousel-content p{
-        font-size: xx-large;
-    }
+
 
     /* A B I L I T I E S */
 
@@ -18,6 +22,8 @@
 
 }
 
+/*  width 768 px  */
+
 @media (max-width:768px){
 
  /* C A R O U S E L  */
@@ -26,8 +32,15 @@
         font-size: 50px;
     }
 
+
     .carousel-content p{
         font-size: 20px;
+    }
+
+    /* S E R V I C E S  */
+
+       .services-content h2{
+        font-size: xX-large !important;
     }
 
     /* A B I L I T I E S */
@@ -39,7 +52,21 @@
 
 }
 
-@media (max-width:992px){
-   
+/*  width 1200 px  */
+
+@media (max-width:1200px){
+    
+ .services-content h2{
+        font-size: x-large !important;
+    }
 }
 
+/*  width 1400 px  */
+
+@media (max-width:1400px){
+   
+ .services-content h2{
+        font-size: 30px;
+    }
+
+}

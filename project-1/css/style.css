@@ -34,13 +34,14 @@ nav ul li a:hover {
 .carousel-item {
   background: url("../images/slider-img-1.jpg"), rgba(0, 0, 0, 0.7);
   background-size: cover;
-  height: 92vh;
+  height: 100vh;
   background-blend-mode: color-burn;
 }
 
-.carousel-content {
-  padding: 150px 0px;
-}
+
+/* .carousel-content {
+  padding: 15% 0%;
+} */
 
 .carousel-content h2 {
   background-image: linear-gradient(to right, #5758e0, lightseagreen);
@@ -60,6 +61,9 @@ nav ul li a:hover {
 /* -------------- B A N N E R - S E C T I O N - E N D ------------------- */
 
 /* -------------- S E R V I C E S - S E C T I O N -------------- */
+/* .services-content{
+  height: 320px;
+} */
 
 .services-content a i:first-child {
   background-image: linear-gradient(to right, #5758e0, lightseagreen);
