@@ -14,12 +14,14 @@
     z-index: 100;
 }
 
-/* .img-fluid{
-    background-image: linear-gradient(to right, #6A67CE, #FC636B) !important;
-} */
-
 .intro-text-color{
     background-image: linear-gradient(to right, #6A67CE, #FC636B) !important;
     background-clip: text;
     color: transparent;
+}
+
+.social-media-item i:hover{
+    background-image: linear-gradient(to right, #6A67CE, #FC636B) !important;
+    color:white;
+    transition: .2s;
 }
