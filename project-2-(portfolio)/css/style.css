@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.scrolled{
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(to right, #6A67CE, #FC636B) !important;
+    color: white !important;
+    transition: .5s;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    z-index: 100;
+}
+
+/* .img-fluid{
+    background-image: linear-gradient(to right, #6A67CE, #FC636B) !important;
+} */
+
+.intro-text-color{
+    background-image: linear-gradient(to right, #6A67CE, #FC636B) !important;
+    background-clip: text;
+    color: transparent;
+}

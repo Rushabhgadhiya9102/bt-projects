@@ -4,20 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="/fonts/bt-icons/bootstrap-icons.min.css" type="text/css" />
     <link rel="stylesheet" href="/css/style.css" />
     <title>Document</title>
   </head>
   <body>
     <!------------------------- N A V I G A T I O N -------------------------->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav">
       <div class="container">
         <a class="navbar-brand" href="#">RG</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -29,16 +26,16 @@
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Education</a>
+              <a class="nav-link" href="#">Education</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Projects</a>
+              <a class="nav-link" href="#">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Contact</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Skills</a>
+              <a class="nav-link" href="#">Skills</a>
             </li>
           </ul>
         </div>
@@ -48,25 +45,43 @@
     <!------------------------- N A V I G A T I O N - E N D -------------------------->
 
     <section class="introduction">
-        <div class="container">
-            <div class="row align-items-center vh-100">
-                <div class="col-6">
-                    <div class="introduction-item">
-                        <p class="fw-semibold">Welcome to my world</p>
-                        <h2 class="fw-bold display-4">Hi, I’m <span class="text-danger">Rushabh Gadhiya <br>A</span>  Full stack developer.</h2>
-                        <p>Bridging the Gap Between Design and Functionality, Building Seamless Solutions from Front to Back,Where Innovation Meets Implementation.</p>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="introduction-img d-flex justify-content-center bg-light shadow">
-                        <img src="/images/intro-img.png" width="350px" class="img-fluid" alt="">
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row align-items-center vh-100">
+          <div class="col-6">
+            <div class="introduction-item">
+              <p class="fw-semibold">Welcome to my world</p>
+              <h2 class="fw-bold display-4">
+                Hi, I’m <span class="text-dange intro-text-color">Rushabh Gadhiya <br />A</span> Full stack developer.
+              </h2>
+              <p>
+                Bridging the Gap Between Design and Functionality, Building Seamless Solutions from Front to Back,Where Innovation Meets
+                Implementation.
+              </p>
             </div>
+
+            <div class="social-media-icon mt-5">
+              <div class="social-media-title fw-semibold">
+                <p>FIND WITH ME</p>
+              </div>
+              <div class="social-media-inner">
+                <div class="social-media-item">
+                  <i class="bi bi-facebook fs-3 bg-light py-2 px-3 rounded shadow"></i>
+                  <i class="bi bi-twitter fs-3 bg-light py-2 px-3 rounded shadow"></i>
+                  <i class="bi bi-linkedin fs-3 bg-light py-2 px-3 rounded shadow"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="introduction-img d-flex bg-light justify-content-center shadow py-3">
+              <img src="/images/my-img.jpg" width="400px" class="img-fluid" alt="" />
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
-    <script src="js/script.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>
