@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.icons{
+	margin-top: 10%;
+}
+
 .scrolled{
     position: fixed;
     width: 100%;
