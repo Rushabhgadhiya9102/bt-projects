@@ -4,9 +4,24 @@
     box-sizing: border-box;
 }
 
+/* body{
+    background-image: url('/images/back-ground.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+} */
+
 .navbar{
 	margin-top: 10%;
     width: 5%;
+}
+
+.introduction-img{
+    object-fit: cover;
+    height: 600px;
 }
 
 .intro-text-color{
@@ -19,4 +34,8 @@
     background-image: linear-gradient(to right, #6A67CE, #FC636B) !important;
     color:white;
     transition: .2s;
+}
+
+.about-title{
+    writing-mode: vertical-lr;
 }
