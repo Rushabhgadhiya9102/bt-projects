@@ -14,7 +14,7 @@
     height: 600px;
 }
 
-.intro-text-color,.about-title{
+.intro-text-color,.about-title,.education-title{
     background-image: linear-gradient(to right, #6A67CE, #FC636B) !important;
     background-clip: text;
     color: transparent;
@@ -38,4 +38,13 @@
 
 .about-content{
     box-shadow: #6A67CE 0px 2px 4px, #FC636B 0px 7px 13px -3px;
+}
+
+.education-title h2 span{
+   -webkit-text-stroke:1px #6A67CE;
+   color:white;
+}
+
+.education-title{
+    /* height: 500px; */
 }
