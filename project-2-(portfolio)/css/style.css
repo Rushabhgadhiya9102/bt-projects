@@ -14,7 +14,7 @@
     height: 600px;
 }
 
-.intro-text-color,.about-title,.education-title, .education-item h2{
+.intro-text-color,.about-title,.education-title,.education-item h2,.project-title h2{
     background-image: linear-gradient(to right, #6A67CE, #FC636B) !important;
     background-clip: text;
     color: transparent;
@@ -43,4 +43,9 @@
 .education-title h2 span{
    -webkit-text-stroke:1px #6A67CE;
    color:white;
+}
+
+.education-item,.project-item{
+    position: sticky;
+    top: 70px;
 }
