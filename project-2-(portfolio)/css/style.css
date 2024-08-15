@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: white;
+}
+
 .navbar{
 	margin-top: 10%;
     width: 5%;
@@ -14,7 +18,7 @@
     height: 600px;
 }
 
-.intro-text-color,.about-title,.education-title,.education-item h2,.project-title h2{
+.intro-text-color,.about-title,.education-title,.education-item h2,.project-title h3{
     background-image: linear-gradient(to right, #6A67CE, #FC636B) !important;
     background-clip: text;
     color: transparent;
@@ -23,6 +27,7 @@
 .social-media-item i:hover{
     background-image: linear-gradient(to right, #6A67CE, #FC636B) !important;
     color:white;
+    transform: translateY(-10px);
 }
 
 .about-title{
@@ -36,8 +41,8 @@
     color: transparent;
 }
 
-.about-content, .education-item{
-    box-shadow: #6A67CE 0px 2px 4px, #FC636B 0px 7px 13px -3px;
+.about-content, .education-item,.introduction-img,.social-media-item i{
+    box-shadow: #6A67CE 0px 0px 8px 1px, #FC636B 0px 0px 13px 2px;
 }
 
 .education-title h2 span{
@@ -45,7 +50,28 @@
    color:white;
 }
 
-.education-item,.project-item{
+.education-item{
     position: sticky;
     top: 70px;
 }
+
+.project-item img{
+    height: 600px;
+}
+
+.project-title h2{
+  font-size: 100px;
+  color: transparent;
+  -webkit-text-stroke: 2px #6A67CE;
+}
+
+.project-title h3{
+  position: absolute;
+  top: 50%;
+  left: 5%; 
+}
+
+/* .project-item{
+    position: sticky;
+    top: 100px;
+} */
