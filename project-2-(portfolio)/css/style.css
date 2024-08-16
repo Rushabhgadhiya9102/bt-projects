@@ -1,82 +1,92 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: white;
+body {
+  background-color: white;
 }
 
-.navbar{
-	margin-top: 10%;
-    width: 5%;
+.navbar {
+  margin-top: 10%;
+  width: 5%;
 }
 
-.introduction-img{
-    object-fit: cover;
-    height: 600px;
+.introduction-img {
+  object-fit: cover;
+  height: 600px;
 }
 
-.intro-text-color,.about-title,.education-title,.education-item h2,.project-title h3,.skills-title h3{
-    background-image: linear-gradient(to right, #6A67CE, #FC636B) !important;
-    background-clip: text;
-    color: transparent;
+.intro-text-color,
+.about-title,
+.education-title,
+.education-item h2,
+.project-title h3,
+.skills-title h3 {
+  background-image: linear-gradient(to right, #6a67ce, #fc636b) !important;
+  background-clip: text;
+  color: transparent;
 }
 
-.social-media-item i:hover{
-    background-image: linear-gradient(to right, #6A67CE, #FC636B) !important;
-    color:white;
-    transform: translateY(-10px);
+.social-media-item i:hover {
+  background-image: linear-gradient(to right, #6a67ce, #fc636b) !important;
+  color: white;
+  transform: translateY(-10px);
 }
 
-.about-title{
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
+.about-title {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
 }
 
-.about-item span{
-     background-image: linear-gradient(to right, #6A67CE, #FC636B) !important;
-    background-clip: text;
-    color: transparent;
+.about-item span {
+  background-image: linear-gradient(to right, #6a67ce, #fc636b) !important;
+  background-clip: text;
+  color: transparent;
 }
 
-/* .about-content, .education-item,.introduction-img,.social-media-item i, .project-item{
-    box-shadow: #6A67CE 0px 0px 8px 1px, #FC636B 0px 0px 13px 2px;
-} */
-
-.education-title h2 span{
-   -webkit-text-stroke:1px #6A67CE;
-   color:white;
+.education-title h2 span {
+  -webkit-text-stroke: 1px #6a67ce;
+  color: white;
 }
 
-.education-item{
-    position: sticky;
-    top: 70px;
+.education-item {
+  position: sticky;
+  top: 70px;
 }
 
-.project-item img{
-    height: 600px;
+.project-item img {
+  height: 600px;
 }
 
-.project-title h2,.skills-title h2{
+.project-title h2,
+.skills-title h2 {
   font-size: 100px;
   color: transparent;
-  -webkit-text-stroke: 2px #6A67CE;
+  -webkit-text-stroke: 2px #6a67ce;
 }
 
-.project-title h3,.skills-title h3{
+.project-title h3,
+.skills-title h3 {
   position: absolute;
   top: 50%;
-  left: 5%; 
+  left: 5%;
 }
 
-.project-item img{
-    height: 300px;
-    object-fit: cover;
+.project-item img {
+  height: 300px;
+  object-fit: cover;
 }
 
-.skills-img{
-    position: sticky;
-    top: 30%;
+.skills-img {
+  position: sticky;
+  top: 30%;
+}
+
+.skills-item i {
+  font-size: 100px;
+  background-image: linear-gradient(to right, #6a67ce, #fc636b) !important;
+  background-clip: text;
+  color: transparent;   
 }
