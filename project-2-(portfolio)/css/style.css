@@ -41,9 +41,9 @@ body{
     color: transparent;
 }
 
-.about-content, .education-item,.introduction-img,.social-media-item i{
+/* .about-content, .education-item,.introduction-img,.social-media-item i, .project-item{
     box-shadow: #6A67CE 0px 0px 8px 1px, #FC636B 0px 0px 13px 2px;
-}
+} */
 
 .education-title h2 span{
    -webkit-text-stroke:1px #6A67CE;
@@ -71,7 +71,6 @@ body{
   left: 5%; 
 }
 
-/* .project-item{
-    position: sticky;
-    top: 100px;
-} */
+.project-item img{
+    height: 250px;
+}
