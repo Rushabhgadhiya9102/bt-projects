@@ -18,7 +18,7 @@ body{
     height: 600px;
 }
 
-.intro-text-color,.about-title,.education-title,.education-item h2,.project-title h3{
+.intro-text-color,.about-title,.education-title,.education-item h2,.project-title h3,.skills-title h3{
     background-image: linear-gradient(to right, #6A67CE, #FC636B) !important;
     background-clip: text;
     color: transparent;
@@ -59,18 +59,24 @@ body{
     height: 600px;
 }
 
-.project-title h2{
+.project-title h2,.skills-title h2{
   font-size: 100px;
   color: transparent;
   -webkit-text-stroke: 2px #6A67CE;
 }
 
-.project-title h3{
+.project-title h3,.skills-title h3{
   position: absolute;
   top: 50%;
   left: 5%; 
 }
 
 .project-item img{
-    height: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.skills-img{
+    position: sticky;
+    top: 30%;
 }
