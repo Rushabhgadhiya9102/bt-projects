@@ -100,12 +100,18 @@ body {
   color: transparent;
 }
 
-.contact-content span{
-    background-image: linear-gradient(to right, #6a67ce, #fc636b) !important;
+.contact-content span {
+  background-image: linear-gradient(to right, #6a67ce, #fc636b) !important;
   background-clip: text;
   color: transparent;
 }
 
-.contact-form button{
+.contact-form button {
+  background-image: linear-gradient(to right, #6a67ce, #fc636b) !important;
+}
+
+.footer a:hover {
    background-image: linear-gradient(to right, #6a67ce, #fc636b) !important;
+  color: white !important;
+  transform: translateY(-10px);
 }
