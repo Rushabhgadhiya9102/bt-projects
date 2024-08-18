@@ -20,7 +20,7 @@ body {
 
 .intro-text-color,
 .about-title,
-.education-title,
+.education-title h3,
 .education-item h2,
 .project-title h3,
 .skills-title h3,
@@ -47,9 +47,15 @@ body {
   color: transparent;
 }
 
-.education-title h2 span {
+.education-title h2 {
   -webkit-text-stroke: 1px #6a67ce;
   color: white;
+}
+
+.education-title-item h3{
+  position: absolute;
+  top: 45%;
+  left: 20%;
 }
 
 .education-item {
