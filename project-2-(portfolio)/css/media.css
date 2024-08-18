@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 576px) {
+
+  .about .container{
+    flex-direction: column;
+  }
+
+  .about-title {
+    writing-mode: horizontal-tb;
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width:768px){
+     .about .container{
+    flex-direction: column;
+  }
+
+  .about-title {
+    writing-mode: horizontal-tb;
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width:992px){
+     .about .container{
+    flex-direction: column;
+  }
+
+  .about-title {
+    writing-mode: horizontal-tb;
+    transform: rotate(360deg);
+  }
+}

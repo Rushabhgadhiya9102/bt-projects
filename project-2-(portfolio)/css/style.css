@@ -4,19 +4,28 @@
   box-sizing: border-box;
 }
 
+/* ------------- B A C K G R O U N D -------------- */
+
 body {
   background-color: white;
 }
+
+/* -------------- N A V I G A T I O N ----------------- */
 
 .navbar {
   margin-top: 10%;
   width: 5%;
 }
 
+/* -------------- I N T R O D U C T I O N ----------------- */
+
+
 .introduction-img {
   object-fit: cover;
   height: 600px;
 }
+
+/* -------------- A L L - S E C T I O N - T I T L E ----------------- */
 
 .intro-text-color,
 .about-title,
@@ -30,11 +39,15 @@ body {
   color: transparent;
 }
 
+/* -------------- S O C I A L - M E D I A S - I C O N S ----------------- */
+
 .social-media-item i:hover {
   background-image: linear-gradient(to right, #6a67ce, #fc636b) !important;
   color: white;
   transform: translateY(-10px);
 }
+
+/* -------------- A B O U T - S E C T I O N ----------------- */
 
 .about-title {
   writing-mode: vertical-lr;
@@ -46,6 +59,10 @@ body {
   background-clip: text;
   color: transparent;
 }
+
+/* -------------- A B O U T - S E C T I O N - E N D ---------------- */
+
+/* -------------- E D U C A T I O N - S E C T I O N ----------------- */
 
 .education-title h2 {
   -webkit-text-stroke: 1px #6a67ce;
@@ -63,9 +80,15 @@ body {
   top: 70px;
 }
 
+/* -------------- E D U C A T I O N - S E C T I O N - E N D ---------------- */
+
+/* -------------- P R O J E C T - S E C T I O N ----------------- */
+
 .project-item img {
   height: 600px;
 }
+
+/* -------------- P R O J E C T - S K I L L - C O N T A C T - T I T L E ----------------- */
 
 .project-title h2,
 .skills-title h2,
@@ -83,6 +106,8 @@ body {
   left: 5%;
 }
 
+/* -------------- P R O J E C T - S K I L L - C O N T A C T - T I T L E - E N D ---------------- */
+
 .project-item img {
   height: 300px;
   object-fit: cover;
@@ -93,6 +118,10 @@ body {
   background-clip: text;
   color: transparent;
 }
+
+/* -------------- P R O J E C T - S E C T I O N - E N D ----------------- */
+
+/* -------------- S K I L L S - S E C T I O N ----------------- */
 
 .skills-img {
   position: sticky;
@@ -106,6 +135,11 @@ body {
   color: transparent;
 }
 
+/* -------------- S K I L L S - S E C T I O N - E N D ---------------- */
+
+
+/* -------------- C O N T A C T - S E C T I O N ----------------- */
+
 .contact-content span {
   background-image: linear-gradient(to right, #6a67ce, #fc636b) !important;
   background-clip: text;
@@ -115,6 +149,10 @@ body {
 .contact-form button {
   background-image: linear-gradient(to right, #6a67ce, #fc636b) !important;
 }
+
+/* -------------- C O N T A C T - S E C T I O N - E N D ---------------- */
+
+/* -------------- F O O T E R - S E C T I O N ----------------- */
 
 .footer a:hover {
    background-image: linear-gradient(to right, #6a67ce, #fc636b) !important;
