@@ -10,6 +10,11 @@ body {
   background-color: white;
 }
 
+.top-up{
+  width: 50px ;
+  margin-top: 40%;
+}
+
 /* -------------- N A V I G A T I O N ----------------- */
 
 .navbar {
