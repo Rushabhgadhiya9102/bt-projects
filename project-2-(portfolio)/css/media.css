@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* ----------- 576 M A X - W I D T H ------------ */
+
 @media (max-width: 576px) {
   .about .container {
     flex-direction: column;
@@ -27,6 +29,8 @@
   }
 }
 
+/* ----------- 768 M A X - W I D T H ------------ */
+
 @media (max-width: 768px) {
   .about .container {
     flex-direction: column;
@@ -36,7 +40,17 @@
     writing-mode: horizontal-tb;
     transform: rotate(360deg);
   }
+
+  .project-title h2,
+  .skills-title h2,
+  .contact-title h2 {
+    font-size: 80px;
+    color: transparent;
+    -webkit-text-stroke: 1px #6a67ce;
+  }
 }
+
+/* ----------- 992 M A X - W I D T H ------------ */
 
 @media (max-width: 992px) {
   .about .container {
